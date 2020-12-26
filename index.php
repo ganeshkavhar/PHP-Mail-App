@@ -2,7 +2,7 @@
 if($_POST['send'])
 {
 	$email=$_POST[email];
- $fromAddr='PHP Gurukul Programing Blog <www.phpgurukul.com>'; // the address to show in From field.
+ $fromAddr='Ganesh Kavhar <https://about.me/ganeshkavhar>'; // the address to show in From field.
  $recipientAddr = $_POST[email];
  $subjectStr = 'Subject';
 
@@ -60,7 +60,7 @@ $_SESSION['msg']="Your Information has been send sucessfully...";
 	<body>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="navbar-header">
-        <a class="navbar-brand" rel="home" href="#">PHP GURUKUL | PROGRAMING BLOG</a>
+        <a class="navbar-brand" rel="home" href="#"> Ganesh Kavhar | Software Developer</a>
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 		<span class="sr-only">Toggle navigation</span>
 		<span class="icon-bar"></span>
